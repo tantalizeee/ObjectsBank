@@ -1,0 +1,87 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #112c44;
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body > img {
+  height: 200px;
+  width: auto;
+  display: block;
+  margin: 30px auto 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 2.4em;
+  margin: 0;
+}
+
+h2 {
+  color: #b5b6c1;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 1.5em 0 0.7em 0;
+  padding: 0;
+  text-align: center;
+}
+
+section {
+  padding: 1em;
+  width: max-content;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  justify-content: center;
+}
+
+td, th {
+  padding: 0.3em 2em 0.3em 0;
+}
+
+th:last-child {
+  padding-right: 0;
+}
+
+tr:nth-child(2) td {
+  padding-top: 0.6em;
+}
+
+th {
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border-bottom: 1px solid #6f7381;
+  font-weight: normal;
+  color: #b5b6c1;
+}
+
+p {
+  margin-bottom: 1.6em;
+}
+
+.important {
+  color: #ffffff;
+}
+
+td.overdrawn {
+  color: #fca905;
+}
